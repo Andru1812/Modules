@@ -1,9 +1,11 @@
 from Fake_math import divide as d_1
 from True_math import divide as d_2
 
-f = float(input('Введите первое число: делимое - '))
-s = float(input('Введите второе число: делитель - '))
-result_1 = d_1(f, s)
-result_2 = d_2(f, s)
-print(result_1)
-print(result_2)
+result1 = d_1(69, 3)
+result2 = d_1(3, 0)
+result3 = d_2(49, 7)
+result4 = d_2(15, 0)
+print(result1)
+print(result2)
+print(result3)
+print(result4)
